@@ -1,0 +1,12 @@
+spring.cloud.stream:
+  function:
+    definition: inventoryProcessor
+  bindings:
+    inventoryProcessor-in-0:
+      destination: order-event
+    inventoryProcessor-out-0:
+      destination: inventory-event
+spring:
+  h2:
+    console.enabled: true
+    console.path: /h2
