@@ -7,17 +7,31 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="inventory-service" />
-        <module name="order-service" />
         <module name="payment-service" />
+        <module name="inventory-service" />
         <module name="common-dto" />
+        <module name="dummy-service3" />
+        <module name="dummy-service2" />
+        <module name="dummy-service1" />
+        <module name="order-service" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dummyservice1" target="20" />
+      <module name="inventory-service (1)" target="11" />
+      <module name="inventory-service (2)" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="common-dto" options="-parameters" />
+      <module name="dummy-service1" options="-parameters" />
+      <module name="dummy-service2" options="-parameters" />
+      <module name="dummy-service3" options="-parameters" />
+      <module name="dummyservice1" options="-parameters" />
       <module name="inventory-service" options="-parameters" />
+      <module name="inventory-service (1)" options="-parameters" />
+      <module name="inventory-service (2)" options="" />
       <module name="order-service" options="-parameters" />
       <module name="payment-service" options="-parameters" />
     </option>

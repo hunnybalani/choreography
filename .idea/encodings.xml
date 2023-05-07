@@ -2,6 +2,9 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/common-dto/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dummyservice1/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dummyservice2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/dummyservice3/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/inventory-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/order-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/payment-service/src/main/java" charset="UTF-8" />

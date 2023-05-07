@@ -9,7 +9,7 @@ spring.cloud.stream:
     paymentEventConsumer-in-0:
       destination: payment-event
     inventoryEventConsumer-in-0:
-      destination: inventory-event
+      destination: dummy3-event
 spring:
   h2:
     console.enabled: true

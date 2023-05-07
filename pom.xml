@@ -8,7 +8,10 @@
 		<module>order-service</module>
 		<module>payment-service</module>
 		<module>inventory-service</module>
-	</modules>
+		<module>dummyservice1</module>
+        <module>dummyservice2</module>
+        <module>dummyservice3</module>
+    </modules>
     <parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>

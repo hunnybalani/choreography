@@ -1,0 +1,12 @@
+spring.cloud.stream:
+  function:
+    definition: dummy1Processor
+  bindings:
+    dummy1Processor-in-0:
+      destination: inventory-event
+    dummy1Processor-out-0:
+      destination: dummy1-event
+spring:
+  h2:
+    console.enabled: true
+    console.path: /h2
